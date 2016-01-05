@@ -1,0 +1,48 @@
+/**
+ * Felilustra Login
+ * 
+ * @author Jose SAYAGO
+ * @url    http://josesayago.com
+ */
+/**
+ * Color Palette
+ */
+body.login {
+  background: #fefefe; }
+
+body.login div#login form#loginform {
+  border: 0 !important;
+  box-shadow: none !important; }
+
+body.login div#login form#loginform p label {
+  color: #73432f; }
+
+body.login div#login form#loginform input#user_login,
+body.login div#login form#loginform input#user_pass {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px dashed #73432f;
+  box-shadow: none;
+  outline: none;
+  color: #73432f; }
+
+body.login div#login form#loginform p.submit input#wp-submit {
+  box-shadow: none;
+  background: #f09f8d;
+  color: #73432f;
+  text-transform: uppercase;
+  text-shadow: none;
+  border-radius: 0;
+  border: 0; }
+
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+  color: white;
+  background: #73432f; }
+
+body.login div#login p#nav a:hover {
+  color: #73432f; }
+
+body.login div#login p#backtoblog a:hover {
+  color: #73432f; }
+
+/*# sourceMappingURL=login.css.map */

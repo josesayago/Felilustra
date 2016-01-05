@@ -1,0 +1,79 @@
+/**
+ * Felilustra Dashboard
+ *
+ * @author Jose SAYAGO
+ * @url    http://josesayago.com
+ */
+/**
+ * Color Palette
+ */
+#adminmenuwrap #adminmenu,
+#adminmenuback,
+#adminmenumain,
+#adminmenuwrap,
+#wpadminbar {
+  background-color: #f09f8d;
+  color: #73432f; }
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu,
+.theme-browser .theme.active .theme-name,
+.theme-browser .theme .more-details,
+.add-new-theme .theme-browser .theme.add-new-theme a:focus:after, .theme-browser .theme.add-new-theme a:hover:after,
+.add-new-theme a:focus, a:focus .media-icon img,
+.theme-browser .theme.add-new-theme a:focus:after, .theme-browser .theme.add-new-theme a:hover:after,
+#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item, #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item, #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input,
+#adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus,
+#adminmenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu, .folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu,
+.filter-count .count, .title-count,
+.wrap .add-new-h2:hover, .wrap .page-title-action:hover {
+  background-color: #d2816f;
+  box-shadow: none;
+  outline: none; }
+
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.current:after {
+  border-right-color: #fff5f5; }
+
+ul#adminmenu .opensub ul:after, .opensub ::after {
+  border-right-color: rgba(240, 159, 141, 0.5); }
+
+#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item, #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar li #adminbarsearch.adminbar-focused:before, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+#wpadminbar:not(.mobile) > #wp-toolbar a:focus span.ab-label, #wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label, #wpadminbar > #wp-toolbar li.hover span.ab-label,
+#adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus,
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top > a:focus,
+#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before,
+.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active,
+.contextual-help-tabs a,
+.contextual-help-sidebar a,
+#wpwrap a,
+#collapse-menu:hover, #collapse-menu:hover #collapse-button div:after {
+  color: #73432f; }
+
+.theme-browser .theme.add-new-theme a:focus span:after, .theme-browser .theme.add-new-theme a:hover span:after {
+  color: #f09f8d; }
+
+.theme-browser .theme.active .theme-actions,
+.wrap .page-title-action {
+  background-color: rgba(240, 159, 141, 0.5); }
+
+#wpwrap {
+  background-color: #fff5f5; }
+
+.wp-core-ui .button-primary {
+  background: #c87765;
+  border: 0;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none; }
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+  background: #d2816f;
+  border: 0;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none; }
+
+/*# sourceMappingURL=dashboard.css.map */

@@ -1,0 +1,62 @@
+/**
+ * Felilustra Login
+ * 
+ * @author Jose SAYAGO
+ * @url    http://josesayago.com
+ */
+/**
+ * Color Palette
+ */
+$bodyFontColor: rgba(115,67,47,1.0);
+$textSelection: rgba(240,159,141,1.0);
+$fontFace: "Bariol", "Helvetica Neue", Calibri, sans-serif;
+$backgroundColor: rgba(254,254,254,1.0);
+$textMenu: rgba(115,67,47,1.0);
+body.login { background: $backgroundColor; }
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {}
+body.login div#login form#loginform {
+	border: 0 !important;
+	box-shadow: none !important;
+}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {
+	color: $bodyFontColor;
+}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login,
+body.login div#login form#loginform input#user_pass {
+	background: transparent;
+	border: 0;
+	border-bottom: 1px dashed $bodyFontColor;
+	box-shadow: none;
+	outline: none;
+	color: $bodyFontColor;
+}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {
+	box-shadow: none;
+	background: $textSelection;
+	color: $textMenu;
+	text-transform: uppercase;
+	text-shadow: none;
+	border-radius: 0;
+	border: 0;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+	color: white;
+	background: $bodyFontColor;
+}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#nav a:hover {
+	color: $bodyFontColor;
+}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+body.login div#login p#backtoblog a:hover {
+	color: $bodyFontColor;
+}
