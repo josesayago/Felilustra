@@ -71,6 +71,12 @@ ul#wpadminbar .opensub ul:after, .opensub ::after {
 body.page-template-template-homepage {
   overflow: hidden; }
 
+.page-template-template-homepage .site-content {
+  background: transparent;
+  display: block;
+  width: 100%;
+  float: none; }
+
 #intro {
   height: 100vh;
   clear: both;

@@ -56,4 +56,4 @@
 		}
 		$image = wp_get_attachment_image_src(get_post_thumbnail_id($id), 'full');
 	?>
-	<div id="content" class="site-content" <?php if (!empty($image)) { echo "style='background-image: url(\"".$image['0']."\");'"; } ?>>
+	<div id="content" class="site-content" <?php if (!is_front_page() && !empty($image)) { echo "style='background-image: url(\"".$image['0']."\");'"; } ?>>
